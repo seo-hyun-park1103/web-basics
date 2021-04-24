@@ -1,0 +1,47 @@
+<!-- 웹 브라우저가 본 문서가 html임을 인식하게 하는 선언 -->
+<!DOCTYPE html>
+<!-- 언어 설정 -->
+<html lang="ko">
+<head>
+    <!-- 문자 인코딩 설정 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 뷰포트 렌더링 방식 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 웹페이지 제목 -->
+    <title>맥도날드 홈페이지</title>
+    <!-- 파비콘 설정 -->
+    <link rel="icon" href="./favicon.ico" />
+    <!-- 각 브라우저 화면에 적용되는 스타일 리셋-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- 웹 폰트 연결 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- main.css 연결 -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- main.js 연결 -->
+    <script defer scr="./js/main.js"></script>
+
+</head>
+<body>
+    <!-- 맥도날드 헤더 만들기 -->
+    <div class="header">
+        <!-- 로고 이미지 -->
+        <img id="logo" src="./image/image.png" alt="로고 이미지" >
+        <ul class= "left01">
+            <a href="https://www.mcdonalds.co.kr/kor/menu/list.do" >
+               <li> Menu </li>
+            </a>
+            <a href="https://www.mcdonalds.co.kr/kor/store/main.do" >
+               <li> Store </li>
+            </a>
+            <a href="https://www.mcdonalds.co.kr/kor/promotion/list.do">
+               <li> What's New </li>
+            </a>
+            <a href="https://www.mcdonalds.co.kr/kor/story/main.do">
+               <li> Story </li>
+            </a>  
+        </ul>
+    </div>
+</body>
+</html>

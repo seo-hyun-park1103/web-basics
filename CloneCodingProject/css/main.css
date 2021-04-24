@@ -1,0 +1,51 @@
+/* COMMON */
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+img{
+    display: block;
+
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    position: absolute;
+    float: left;
+    font-size: 20px;
+    margin-right: 80px;
+    height: 140px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    background: white;
+    position: fixed;
+    z-index: 2;
+}
+
+header img#logo{
+    width: 106px;
+    float: left;
+    height: 93px;
+    background: white;
+    display: flex;
+    justify-content: left;
+    padding-left: 65px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: justify;
+
+}
+
+header .left01 ul li{
+    padding-left: 60px;
+    float: left;
+    font-size:20px;
+    font-weight:600;
+    margin-right: 13px;
+}
+

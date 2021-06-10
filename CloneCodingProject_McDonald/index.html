@@ -15,8 +15,9 @@
     <!-- 각 브라우저 화면에 적용되는 스타일 리셋-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <!-- 웹 폰트 연결 -->
+    <!-- 웹페이지에 해당하는 글씨체가 없어서 가장 유사한걸로 가져왔습니다  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
     <!-- main.css 연결 -->
     <link rel="stylesheet" href="./css/main.css">
     <!-- main.js 연결 -->
@@ -24,24 +25,20 @@
 
 </head>
 <body>
-    <!-- 맥도날드 헤더 만들기 -->
-    <div class="header">
+
+    <header class="header">
         <!-- 로고 이미지 -->
         <img id="logo" src="./image/image.png" alt="로고 이미지" >
-        <ul class= "left01">
-            <a href="https://www.mcdonalds.co.kr/kor/menu/list.do" >
-               <li> Menu </li>
-            </a>
-            <a href="https://www.mcdonalds.co.kr/kor/store/main.do" >
-               <li> Store </li>
-            </a>
-            <a href="https://www.mcdonalds.co.kr/kor/promotion/list.do">
-               <li> What's New </li>
-            </a>
-            <a href="https://www.mcdonalds.co.kr/kor/story/main.do">
-               <li> Story </li>
-            </a>  
-        </ul>
-    </div>
+        <div class = "header__gnb">
+            <ul>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">WHAT'S NEW</a></li>
+                <li><a href="#">STORY</a></li>
+            </ul>
+
+        </div>
+    </header>
+    
 </body>
 </html>

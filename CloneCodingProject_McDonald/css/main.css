@@ -18,7 +18,7 @@ header{
     font-size: 20px;
     margin-right: 80px;
     height: 140px;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family:'Hammersmith One', sans-serif;;
     font-weight: 600;
     background: white;
     position: fixed;
@@ -41,11 +41,21 @@ header img#logo{
 
 }
 
-header .left01 ul li{
-    padding-left: 60px;
-    float: left;
-    font-size:20px;
-    font-weight:600;
-    margin-right: 13px;
+.header__gnb ul{
+    margin-top: 0px 85px;
 }
 
+.header__gnb li{
+    display: inline-block;
+}
+
+.header__gnb li a {
+    display: block;
+    font: bold 20px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: black;
+    line-height: 140px;
+    font-weight: 700;
+    margin: 0px 40px;
+    padding: 0px 10px;
+}
